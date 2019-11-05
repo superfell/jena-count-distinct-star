@@ -2,7 +2,9 @@
 
 Possible bug in count(distint *) in Jena.
 
-Given that ?lbl is the only variable in the BGP, count(distinct *) and count(distinct ?lbl) should return the same results. but count(distint *) return 3 rather than 2.
+Given that ?lbl is the only variable in the BGP, count(distinct *) and count(distinct ?lbl) should return the same results.
+
+Running these queries returns 3 for the first one, and 2 for the second one.
 
 ```
 BASE <https://superfell.com/>

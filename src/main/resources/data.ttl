@@ -1,0 +1,9 @@
+@base <https://superfell.com/> .
+
+<child3>	<p>		<child2> ;
+			<label>	"child"@en .
+<child2>	<p>		<child1> ;
+			<label>	"child"@en .
+<child1>	<p>		<root> ;
+			<label>	"child"@en .
+<root>		<label>	"root"@en .
